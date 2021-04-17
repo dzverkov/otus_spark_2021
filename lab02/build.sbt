@@ -1,14 +1,16 @@
-import Dependencies._
+name := "lab02"
 
-ThisBuild / scalaVersion     := "2.13.4"
-ThisBuild / version          := "0.1.0-SNAPSHOT"
-ThisBuild / organization     := "com.example"
-ThisBuild / organizationName := "example"
+version := "0.1"
 
-lazy val root = (project in file("."))
-  .settings(
-    name := "lab02",
-    libraryDependencies += scalaTest % Test
-  )
+scalaVersion := "2.13.5"
 
-// See https://www.scala-sbt.org/1.x/docs/Using-Sonatype.html for instructions on how to publish to Sonatype.
+val circeVersion = "0.13.0"
+
+libraryDependencies ++= Seq(
+  "io.circe"  %% "circe-core"     % circeVersion,
+  "io.circe"  %% "circe-generic"  % circeVersion,
+  "io.circe" %% "circe-generic-extras"  % circeVersion,
+  "io.circe"  %% "circe-parser"   % circeVersion,
+  "io.circe"  %% "circe-literal"  % circeVersion
+
+)

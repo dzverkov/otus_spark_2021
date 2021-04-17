@@ -1,0 +1,52 @@
+[
+  {
+    "name" : "Algeria",
+    "capital" : "Algiers",
+    "area" : 2381741.0
+  },
+  {
+    "name" : "DR Congo",
+    "capital" : "Kinshasa",
+    "area" : 2344858.0
+  },
+  {
+    "name" : "Sudan",
+    "capital" : "Khartoum",
+    "area" : 1886068.0
+  },
+  {
+    "name" : "Libya",
+    "capital" : "Tripoli",
+    "area" : 1759540.0
+  },
+  {
+    "name" : "Chad",
+    "capital" : "N'Djamena",
+    "area" : 1284000.0
+  },
+  {
+    "name" : "Niger",
+    "capital" : "Niamey",
+    "area" : 1267000.0
+  },
+  {
+    "name" : "Angola",
+    "capital" : "Luanda",
+    "area" : 1246700.0
+  },
+  {
+    "name" : "Mali",
+    "capital" : "Bamako",
+    "area" : 1240192.0
+  },
+  {
+    "name" : "South Africa",
+    "capital" : "Pretoria",
+    "area" : 1221037.0
+  },
+  {
+    "name" : "Ethiopia",
+    "capital" : "Addis Ababa",
+    "area" : 1104300.0
+  }
+]
