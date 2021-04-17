@@ -40,43 +40,4 @@ object lab02 {
         writer.println(res_json)
     }
 
-
-
-
-
-/////////////////
-  /*
-
-
-  case class resultCountry(name: String, capital: String, area: Float)
-
-
-
-      def jsonPrinter[A](obj: A)(implicit encoder: Encoder[A]): String =
-        obj.asJson.noSpaces
-
-      def convertToResultCountry(country: Country): resultCountry = {
-        resultCountry(country.name, country.capital.head, country.area)
-      }
-
-      def renderAllMatches(countries: List[Country]): List[resultCountry] = {
-        countries
-          .sortBy(_.area)(Ordering[Float].reverse)
-          .take(10)
-          .map(convertToResultCountry _)
-      }
-
-      val outputFile = args(0)
-      val fos = new FileOutputStream(outputFile)
-      val printer = new PrintStream(fos)
-
-      if (africaCountries.size > 0) {
-        printer.println(jsonPrinter(renderAllMatches(africaCountries)))
-        println("The list of countries is written to the file: " + outputFile)
-      } else {
-        println("Error!!! The list of countries is empty")
-      }
-
-    }*/
-
 }
