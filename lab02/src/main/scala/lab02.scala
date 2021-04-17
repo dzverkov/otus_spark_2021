@@ -34,7 +34,6 @@ object lab02 {
         }
 
         val res_json = Encoder[List[CountryRes]].apply(res)
-        //val fName = "/Users/dem/Documents/Projects/otus_spark_2021/lab02/data/lab02_out.json"
         val fName = args(0)
         val writer = new PrintStream(new FileOutputStream(fName))
         writer.println(res_json)
