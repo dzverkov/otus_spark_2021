@@ -1,3 +1,6 @@
-
-lab02/data/.DS_Store
 .DS_Store
+.idea/
+.bsp/
+target/
+divolte-streamsets-quickstart/
+hadoop_course_homework/
